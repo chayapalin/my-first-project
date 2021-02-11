@@ -1,0 +1,116 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.9rem;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  line-height: 2;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8rem;
+  color: #aaaaaa;
+  letter-spacing: 0.05rem;
+}
+
+.container-fluid {
+  padding: 4% 15%;
+}
+
+.section-heading {
+  font-size: 2.8rem;
+  letter-spacing: 0.05rem;
+}
+
+/* Nav Bar */
+#nav {
+  background-color: #aaaaaa;
+}
+
+#nav .container-fluid {
+  padding: 1% 15%;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+/* Intro */
+#intro {
+  background-color: #f6f6f6;
+}
+
+#intro h2 {
+  letter-spacing: 0.05rem;
+}
+
+/* Personality Traits */
+#traits {
+  background-color: #ffe2e2;
+}
+
+#traits img {
+  max-width: 12rem;
+}
+
+/* Comic Cards */
+#comic {
+  background-color: #f6f6f6;
+}
+
+/* Message Carousal */
+#messages {
+  background-color: #ffc7c7;
+}
+
+#messages .container-fluid {
+  padding: 4% 15%;
+}
+
+#messages em {
+  margin-bottom: 3rem;
+}
+
+.carousel-inner {
+  padding-bottom: 5%;
+}
+
+.carousel-text {
+  font-size: 3.5rem;
+  color: #f6f6f6;
+  letter-spacing: 0.009rem;
+}
+
+/* Footer */
+footer {
+  background-color: #aaaaaa;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Media Query */
+@media screen and (max-width : 991px) {
+  #intro h2 {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width : 1263px) {
+  #messages .container-fluid {
+    padding: 2% 15%;
+  }
+}
