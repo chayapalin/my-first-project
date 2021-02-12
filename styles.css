@@ -5,20 +5,21 @@ body {
 
 h1 {
   font-family: "Dancing Script", cursive;
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   font-weight: bolder;
 }
 
 h2 {
   font-family: "Dancing Script", cursive;
-  line-height: 2;
   font-size: 2rem;
   font-weight: bold;
+  line-height: 2;
 }
 
 h3 {
   font-family: "Dancing Script", cursive;
   font-size: 1.8rem;
+  font-weight: bold;
   color: #aaaaaa;
   letter-spacing: 0.05rem;
 }
@@ -103,14 +104,108 @@ footer {
 }
 
 /* Media Query */
-@media screen and (max-width : 991px) {
+@media screen and (max-width : 1263px) {
+  /* Message Carousal */
+  #messages .container-fluid {
+    padding: 2% 14%;
+  }
+
+  .carousel-text {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width : 1220px) {
+  .section-heading {
+    font-size: 2.1rem;
+  }
+
+  /* Intro */
+  h1 {
+    font-size: 2.3rem;
+  }
+
   #intro h2 {
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Personality Traits */
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width : 1124px) {
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  /* Intro */
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  #intro h2 {
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Message Carousal */
+  #messages .container-fluid {
+    padding: 2% 12%;
+  }
+}
+
+@media screen and (max-width : 1028px) {
+  /* Intro */
+  h1 {
+    font-size: 2rem;
+  }
+
+  #intro h2 {
+    font-size: 1.5rem;
     padding-bottom: 2rem;
   }
 }
 
-@media screen and (max-width : 1263px) {
+@media screen and (max-width : 991px) {
+  /* Intro */
+  h1 {
+    font-size: 2.3rem;
+  }
+  
+  #intro h2 {
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Message Carousal */
   #messages .container-fluid {
-    padding: 2% 15%;
+    padding: 2% 10%;
+  }
+}
+
+@media screen and (max-width : 641px) {
+  /* Intro */
+  h1 {
+    font-size: 2.1rem;
+  }
+  
+  #intro h2 {
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width : 585px) {
+  /* Intro */
+  h1 {
+    font-size: 1.7rem;
+  }
+  
+  #intro h2 {
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
   }
 }
