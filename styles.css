@@ -7,6 +7,7 @@ h1 {
   font-family: "Dancing Script", cursive;
   font-size: 2.5rem;
   font-weight: bolder;
+  letter-spacing: 0.009rem;
 }
 
 h2 {
@@ -14,14 +15,14 @@ h2 {
   font-size: 2rem;
   font-weight: bold;
   line-height: 2;
+  letter-spacing: 0.05rem;
 }
 
 h3 {
   font-family: "Dancing Script", cursive;
-  font-size: 1.8rem;
   font-weight: bold;
-  color: #aaaaaa;
   letter-spacing: 0.05rem;
+  margin-bottom: 3rem;
 }
 
 .container-fluid {
@@ -29,7 +30,7 @@ h3 {
 }
 
 .section-heading {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   letter-spacing: 0.05rem;
 }
 
@@ -52,11 +53,7 @@ h3 {
 
 /* Intro */
 #intro {
-  background-color: #f6f6f6;
-}
-
-#intro h2 {
-  letter-spacing: 0.05rem;
+  background-color: #aaaaaa;
 }
 
 /* Personality Traits */
@@ -82,20 +79,6 @@ h3 {
   padding: 4% 15%;
 }
 
-#messages em {
-  margin-bottom: 3rem;
-}
-
-.carousel-inner {
-  padding-bottom: 5%;
-}
-
-.carousel-text {
-  font-size: 3.5rem;
-  color: #f6f6f6;
-  letter-spacing: 0.009rem;
-}
-
 /* Footer */
 footer {
   background-color: #aaaaaa;
@@ -109,25 +92,16 @@ footer {
   #messages .container-fluid {
     padding: 2% 14%;
   }
-
-  .carousel-text {
-    font-size: 1.8rem;
-  }
 }
 
-@media screen and (max-width : 1220px) {
-  .section-heading {
-    font-size: 2.1rem;
-  }
-
+@media screen and (max-width : 1231px) {
   /* Intro */
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
   }
 
-  #intro h2 {
-    font-size: 1.8rem;
-    padding-bottom: 2rem;
+  h2 {
+    font-size: 1.9rem;
   }
 
   /* Personality Traits */
@@ -136,19 +110,10 @@ footer {
   }
 }
 
-@media screen and (max-width : 1124px) {
-  .section-heading {
-    font-size: 2rem;
-  }
-
+@media screen and (max-width : 1183px) {
   /* Intro */
   h1 {
-    font-size: 2.1rem;
-  }
-
-  #intro h2 {
-    font-size: 1.7rem;
-    padding-bottom: 2rem;
+    font-size: 2.3rem;
   }
 
   /* Message Carousal */
@@ -157,55 +122,68 @@ footer {
   }
 }
 
-@media screen and (max-width : 1028px) {
+@media screen and (max-width : 1135px) {
+  /* Intro */
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width : 1088px) {
+  /* Intro */
+  h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width : 1040px) {
   /* Intro */
   h1 {
     font-size: 2rem;
   }
 
-  #intro h2 {
+  h2 {
     font-size: 1.5rem;
-    padding-bottom: 2rem;
   }
 }
 
 @media screen and (max-width : 991px) {
   /* Intro */
-  h1 {
-    font-size: 2.3rem;
-  }
-  
-  #intro h2 {
-    font-size: 1.8rem;
-    padding-bottom: 2rem;
-  }
-
-  /* Message Carousal */
-  #messages .container-fluid {
-    padding: 2% 10%;
-  }
-}
-
-@media screen and (max-width : 641px) {
-  /* Intro */
-  h1 {
-    font-size: 2.1rem;
-  }
-  
-  #intro h2 {
-    font-size: 1.8rem;
+  h2 {
+    font-size: 1.5rem;
     padding-bottom: 2rem;
   }
 }
 
-@media screen and (max-width : 585px) {
+@media screen and (max-width : 586px) {
+  .section-heading {
+    font-size: 1.9rem;
+  }
+
   /* Intro */
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
-  
-  #intro h2 {
-    font-size: 1.4rem;
-    padding-bottom: 2rem;
+}
+
+@media screen and (max-width : 536px) {
+  .section-heading {
+    font-size: 1.75rem;
+  }
+
+  /* Intro */
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  /* Intro */
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousel-text {
+    font-size: medium;
   }
 }
